@@ -1,0 +1,902 @@
+{
+  "generated_at": "2026-05-28T22:44:43.542089",
+  "real_file_comparisons": [
+    {
+      "comparison": "2024-01-15-10.json.gz vs 2024-01-15-11.json.gz",
+      "drifts": [
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.site_admin",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.open_issues",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.followers_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.events_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.received_events_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.starred_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.subscriptions_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.gravatar_id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.received_events_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.labels_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.title",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.following_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.avatar_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.site_admin",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.labels_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.type",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.type",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.created_at",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.title",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.created_at",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.state",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.gists_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.avatar_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.updated_at",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.closed_issues",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.node_id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.html_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.html_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.login",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.repos_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.following_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.node_id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.html_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.description",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pages",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.number",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.login",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.repos_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.followers_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.node_id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.updated_at",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.due_on",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.starred_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.closed_at",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.closed_at",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.html_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.gravatar_id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.description",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.state",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.number",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.events_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.gists_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.organizations_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.closed_issues",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.creator.organizations_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.due_on",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.node_id",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.issue.milestone.open_issues",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.pull_request.milestone.creator.subscriptions_url",
+          "detail": "Present in 2024-01-15-10.json.gz but missing from 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.codespaces",
+          "detail": "New field in 2024-01-15-11.json.gz not seen in 2024-01-15-10.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.actions",
+          "detail": "New field in 2024-01-15-11.json.gz not seen in 2024-01-15-10.json.gz"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.pull_request.milestone",
+          "detail": "Types changed from {'dict'} to set()"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.issue.milestone",
+          "detail": "Types changed from {'dict'} to set()"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.pull_request.auto_merge.commit_message",
+          "detail": "Types changed from {'str'} to set()"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.pull_request.auto_merge.commit_title",
+          "detail": "Types changed from {'str'} to set()"
+        }
+      ]
+    },
+    {
+      "comparison": "2024-01-15-11.json.gz vs 2024-01-15-9.json.gz",
+      "drifts": [
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.id",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.organizations_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.node_id",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.subscriptions_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.type",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.site_admin",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.repos_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.html_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.received_events_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.avatar_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.gravatar_id",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.followers_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.starred_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.login",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.following_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.codespaces",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.gists_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "FIELD_DISAPPEARED",
+          "field": "payload.member.events_url",
+          "detail": "Present in 2024-01-15-11.json.gz but missing from 2024-01-15-9.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.site_admin",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.open_issues",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.followers_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.events_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.received_events_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.starred_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.subscriptions_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.gravatar_id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.discussions",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.received_events_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.labels_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.title",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.following_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.avatar_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.site_admin",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.labels_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.type",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.type",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.created_at",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.title",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.merge_queues",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.created_at",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.pages",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.state",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.gists_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.avatar_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.updated_at",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.closed_issues",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.node_id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.html_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.html_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.login",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.repository_projects",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.following_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.node_id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.repos_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.description",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.html_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pages",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.number",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.login",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.repos_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.followers_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.node_id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.updated_at",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.due_on",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.starred_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.closed_at",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.closed_at",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.html_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.gravatar_id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.description",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.state",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.number",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.events_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.gists_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.organizations_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.closed_issues",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.comment.performed_via_github_app.permissions.packages",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.creator.organizations_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.due_on",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.node_id",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.issue.milestone.open_issues",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "NEW_FIELD_APPEARED",
+          "field": "payload.pull_request.milestone.creator.subscriptions_url",
+          "detail": "New field in 2024-01-15-9.json.gz not seen in 2024-01-15-11.json.gz"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.pull_request.milestone",
+          "detail": "Types changed from set() to {'dict'}"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.issue.milestone",
+          "detail": "Types changed from set() to {'dict'}"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.pull_request.auto_merge.commit_message",
+          "detail": "Types changed from set() to {'str'}"
+        },
+        {
+          "type": "TYPE_CHANGED",
+          "field": "payload.pull_request.auto_merge.commit_title",
+          "detail": "Types changed from set() to {'str'}"
+        }
+      ]
+    }
+  ],
+  "simulation_result": {
+    "injected": 3,
+    "caught": 3,
+    "catch_rate_pct": 100.0,
+    "drifts": [
+      {
+        "type": "FIELD_DISAPPEARED",
+        "field": "public",
+        "detail": "Present in baseline but missing from drifted_version"
+      },
+      {
+        "type": "NEW_FIELD_APPEARED",
+        "field": "api_version",
+        "detail": "New field in drifted_version not seen in baseline"
+      },
+      {
+        "type": "NULL_RATE_SPIKE",
+        "field": "actor.login",
+        "detail": "Null rate changed from 0.0% to 39.8%"
+      }
+    ]
+  }
+}
