@@ -1,0 +1,38 @@
+rules:
+  - field: "id"
+    rule: "not_null"
+
+  - field: "type"
+    rule: "not_null"
+
+  - field: "actor.login"
+    rule: "not_null"
+
+  - field: "repo.name"
+    rule: "not_null"
+
+  - field: "created_at"
+    rule: "not_null"
+
+  - field: "type"
+    rule: "value_in_set"
+    values:
+      - "PushEvent"
+      - "CreateEvent"
+      - "PullRequestEvent"
+      - "IssueCommentEvent"
+      - "WatchEvent"
+      - "DeleteEvent"
+      - "PullRequestReviewEvent"
+      - "IssuesEvent"
+      - "PullRequestReviewCommentEvent"
+      - "ForkEvent"
+      - "ReleaseEvent"
+      - "PublicEvent"
+      - "MemberEvent"
+      - "CommitCommentEvent"
+      - "GollumEvent"
+
+  - field: "created_at"
+    rule: "regex_match"
+    pattern: "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
