@@ -1,0 +1,6884 @@
+{
+  "id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "actor": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "actor.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "actor.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "actor.display_login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "actor.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "actor.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "actor.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "repo": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "repo.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "repo.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "repo.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "payload": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "payload.repository_id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 348,
+    "null_rate_pct": 0.0
+  },
+  "payload.push_id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 348,
+    "null_rate_pct": 0.0
+  },
+  "payload.size": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 348,
+    "null_rate_pct": 0.0
+  },
+  "payload.distinct_size": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 348,
+    "null_rate_pct": 0.0
+  },
+  "payload.ref": {
+    "types": [
+      "str"
+    ],
+    "null_count": 19,
+    "present_count": 401,
+    "null_rate_pct": 3.8
+  },
+  "payload.head": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 348,
+    "null_rate_pct": 0.0
+  },
+  "payload.before": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 348,
+    "null_rate_pct": 0.0
+  },
+  "payload.commits": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 348,
+    "null_rate_pct": 0.0
+  },
+  "public": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 500,
+    "null_rate_pct": 0.0
+  },
+  "org": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 114,
+    "null_rate_pct": 0.0
+  },
+  "org.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 114,
+    "null_rate_pct": 0.0
+  },
+  "org.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 114,
+    "null_rate_pct": 0.0
+  },
+  "org.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 114,
+    "null_rate_pct": 0.0
+  },
+  "org.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 114,
+    "null_rate_pct": 0.0
+  },
+  "org.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 114,
+    "null_rate_pct": 0.0
+  },
+  "payload.action": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 91,
+    "null_rate_pct": 0.0
+  },
+  "payload.number": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.diff_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.patch_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.issue_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.number": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.state": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.locked": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.title": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.user.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.body": {
+    "types": [
+      "str"
+    ],
+    "null_count": 12,
+    "present_count": 37,
+    "null_rate_pct": 2.4
+  },
+  "payload.pull_request.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.closed_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 32,
+    "present_count": 37,
+    "null_rate_pct": 6.4
+  },
+  "payload.pull_request.merged_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 32,
+    "present_count": 37,
+    "null_rate_pct": 6.4
+  },
+  "payload.pull_request.merge_commit_sha": {
+    "types": [
+      "str"
+    ],
+    "null_count": 15,
+    "present_count": 37,
+    "null_rate_pct": 3.0
+  },
+  "payload.pull_request.assignee": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 34,
+    "present_count": 37,
+    "null_rate_pct": 6.8
+  },
+  "payload.pull_request.assignees": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.requested_reviewers": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.requested_teams": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.labels": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 35,
+    "present_count": 37,
+    "null_rate_pct": 7.0
+  },
+  "payload.pull_request.draft": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.commits_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.review_comments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.review_comment_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.comments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.statuses_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.label": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.ref": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.sha": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.user.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.full_name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.private": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.owner.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.description": {
+    "types": [
+      "str"
+    ],
+    "null_count": 18,
+    "present_count": 37,
+    "null_rate_pct": 3.6
+  },
+  "payload.pull_request.head.repo.fork": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.forks_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.keys_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.collaborators_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.teams_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.hooks_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.issue_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.assignees_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.branches_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.tags_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.blobs_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.git_tags_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.git_refs_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.trees_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.statuses_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.languages_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.stargazers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.contributors_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.subscribers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.subscription_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.commits_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.git_commits_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.comments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.issue_comment_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.contents_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.compare_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.merges_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.archive_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.downloads_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.issues_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.pulls_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.milestones_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.notifications_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.labels_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.releases_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.deployments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.pushed_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.git_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.ssh_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.clone_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.svn_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.homepage": {
+    "types": [
+      "str"
+    ],
+    "null_count": 19,
+    "present_count": 37,
+    "null_rate_pct": 3.8
+  },
+  "payload.pull_request.head.repo.size": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.stargazers_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.watchers_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.language": {
+    "types": [
+      "str"
+    ],
+    "null_count": 4,
+    "present_count": 37,
+    "null_rate_pct": 0.8
+  },
+  "payload.pull_request.head.repo.has_issues": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.has_projects": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.has_downloads": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.has_wiki": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.has_pages": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.has_discussions": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.forks_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.mirror_url": {
+    "types": [],
+    "null_count": 37,
+    "present_count": 37,
+    "null_rate_pct": 7.4
+  },
+  "payload.pull_request.head.repo.archived": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.disabled": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.open_issues_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.license": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 15,
+    "present_count": 37,
+    "null_rate_pct": 3.0
+  },
+  "payload.pull_request.head.repo.allow_forking": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.is_template": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.web_commit_signoff_required": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.topics": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.visibility": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.forks": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.open_issues": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.watchers": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.default_branch": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.label": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.ref": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.sha": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.user.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.full_name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.private": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.owner.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.description": {
+    "types": [
+      "str"
+    ],
+    "null_count": 17,
+    "present_count": 37,
+    "null_rate_pct": 3.4
+  },
+  "payload.pull_request.base.repo.fork": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.forks_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.keys_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.collaborators_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.teams_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.hooks_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.issue_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.assignees_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.branches_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.tags_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.blobs_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.git_tags_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.git_refs_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.trees_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.statuses_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.languages_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.stargazers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.contributors_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.subscribers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.subscription_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.commits_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.git_commits_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.comments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.issue_comment_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.contents_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.compare_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.merges_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.archive_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.downloads_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.issues_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.pulls_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.milestones_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.notifications_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.labels_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.releases_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.deployments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.pushed_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.git_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.ssh_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.clone_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.svn_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.homepage": {
+    "types": [
+      "str"
+    ],
+    "null_count": 18,
+    "present_count": 37,
+    "null_rate_pct": 3.6
+  },
+  "payload.pull_request.base.repo.size": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.stargazers_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.watchers_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.language": {
+    "types": [
+      "str"
+    ],
+    "null_count": 2,
+    "present_count": 37,
+    "null_rate_pct": 0.4
+  },
+  "payload.pull_request.base.repo.has_issues": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.has_projects": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.has_downloads": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.has_wiki": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.has_pages": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.has_discussions": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.forks_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.mirror_url": {
+    "types": [],
+    "null_count": 37,
+    "present_count": 37,
+    "null_rate_pct": 7.4
+  },
+  "payload.pull_request.base.repo.archived": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.disabled": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.open_issues_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.license": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 15,
+    "present_count": 37,
+    "null_rate_pct": 3.0
+  },
+  "payload.pull_request.base.repo.allow_forking": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.is_template": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.web_commit_signoff_required": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.topics": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.visibility": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.forks": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.open_issues": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.watchers": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.default_branch": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.self": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.self.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.html": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.html.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.issue": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.issue.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.comments": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.comments.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.review_comments": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.review_comments.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.review_comment": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.review_comment.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.commits": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.commits.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.statuses": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request._links.statuses.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.author_association": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 37,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 35,
+    "present_count": 37,
+    "null_rate_pct": 7.0
+  },
+  "payload.pull_request.active_lock_reason": {
+    "types": [],
+    "null_count": 37,
+    "present_count": 37,
+    "null_rate_pct": 7.4
+  },
+  "payload.pull_request.merged": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.mergeable": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 20,
+    "present_count": 24,
+    "null_rate_pct": 4.0
+  },
+  "payload.pull_request.rebaseable": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 20,
+    "present_count": 24,
+    "null_rate_pct": 4.0
+  },
+  "payload.pull_request.mergeable_state": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 19,
+    "present_count": 24,
+    "null_rate_pct": 3.8
+  },
+  "payload.pull_request.comments": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.review_comments": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.maintainer_can_modify": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.commits": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.additions": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.deletions": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.changed_files": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 24,
+    "null_rate_pct": 0.0
+  },
+  "payload.ref_type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 53,
+    "null_rate_pct": 0.0
+  },
+  "payload.master_branch": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 43,
+    "null_rate_pct": 0.0
+  },
+  "payload.description": {
+    "types": [
+      "str"
+    ],
+    "null_count": 29,
+    "present_count": 43,
+    "null_rate_pct": 5.8
+  },
+  "payload.pusher_type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 53,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.repository_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.labels_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.comments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.number": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.title": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.user.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.labels": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.state": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.locked": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 22,
+    "present_count": 23,
+    "null_rate_pct": 4.4
+  },
+  "payload.issue.assignee.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignee.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.assignees": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 22,
+    "present_count": 23,
+    "null_rate_pct": 4.4
+  },
+  "payload.issue.comments": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.closed_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 19,
+    "present_count": 23,
+    "null_rate_pct": 3.8
+  },
+  "payload.issue.author_association": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.active_lock_reason": {
+    "types": [],
+    "null_count": 23,
+    "present_count": 23,
+    "null_rate_pct": 4.6
+  },
+  "payload.issue.draft": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 12,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.pull_request": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 12,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.pull_request.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 12,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.pull_request.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 12,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.pull_request.diff_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 12,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.pull_request.patch_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 12,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.pull_request.merged_at": {
+    "types": [],
+    "null_count": 12,
+    "present_count": 12,
+    "null_rate_pct": 2.4
+  },
+  "payload.issue.body": {
+    "types": [
+      "str"
+    ],
+    "null_count": 5,
+    "present_count": 23,
+    "null_rate_pct": 1.0
+  },
+  "payload.issue.reactions": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.total_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.+1": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.-1": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.laugh": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.hooray": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.confused": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.heart": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.rocket": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.reactions.eyes": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.timeline_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.performed_via_github_app": {
+    "types": [],
+    "null_count": 23,
+    "present_count": 23,
+    "null_rate_pct": 4.6
+  },
+  "payload.issue.state_reason": {
+    "types": [
+      "str"
+    ],
+    "null_count": 19,
+    "present_count": 23,
+    "null_rate_pct": 3.8
+  },
+  "payload.comment": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.issue_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 19,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.user.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.author_association": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.body": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.total_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.+1": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.-1": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.laugh": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.hooray": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.confused": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.heart": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.rocket": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.reactions.eyes": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 23,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 15,
+    "present_count": 19,
+    "null_rate_pct": 3.0
+  },
+  "payload.pull_request.head.repo.license.key": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.license.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.license.spdx_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.head.repo.license.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 6,
+    "present_count": 22,
+    "null_rate_pct": 1.2
+  },
+  "payload.pull_request.head.repo.license.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.license.key": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.license.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.license.spdx_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.base.repo.license.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 6,
+    "present_count": 22,
+    "null_rate_pct": 1.2
+  },
+  "payload.pull_request.base.repo.license.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 22,
+    "null_rate_pct": 0.0
+  },
+  "payload.review": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.user.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.body": {
+    "types": [
+      "str"
+    ],
+    "null_count": 3,
+    "present_count": 10,
+    "null_rate_pct": 0.6
+  },
+  "payload.review.commit_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.submitted_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.state": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.pull_request_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review.author_association": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review._links": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review._links.html": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review._links.html.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review._links.pull_request": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.review._links.pull_request.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 10,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.slug": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.owner.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.description": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.external_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.contents": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.issues": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.metadata": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.pull_requests": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.events": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.pull_request_review_id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.diff_hunk": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.path": {
+    "types": [
+      "str"
+    ],
+    "null_count": 1,
+    "present_count": 4,
+    "null_rate_pct": 0.2
+  },
+  "payload.comment.commit_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 4,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.original_commit_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.pull_request_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment._links": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment._links.self": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment._links.self.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment._links.html": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment._links.html.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment._links.pull_request": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment._links.pull_request.href": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.start_line": {
+    "types": [],
+    "null_count": 3,
+    "present_count": 3,
+    "null_rate_pct": 0.6
+  },
+  "payload.comment.original_start_line": {
+    "types": [],
+    "null_count": 3,
+    "present_count": 3,
+    "null_rate_pct": 0.6
+  },
+  "payload.comment.start_side": {
+    "types": [],
+    "null_count": 3,
+    "present_count": 3,
+    "null_rate_pct": 0.6
+  },
+  "payload.comment.line": {
+    "types": [
+      "int"
+    ],
+    "null_count": 1,
+    "present_count": 4,
+    "null_rate_pct": 0.2
+  },
+  "payload.comment.original_line": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.side": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.original_position": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.position": {
+    "types": [
+      "int"
+    ],
+    "null_count": 1,
+    "present_count": 4,
+    "null_rate_pct": 0.2
+  },
+  "payload.comment.subject_type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.enabled_by.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.merge_method": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.commit_title": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.auto_merge.commit_message": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.administration": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.checks": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.deployments": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.emails": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.members": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.repository_hooks": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.statuses": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pages": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.merged_by.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.assignee.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 3,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.full_name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.private": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.owner.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.description": {
+    "types": [
+      "str"
+    ],
+    "null_count": 1,
+    "present_count": 5,
+    "null_rate_pct": 0.2
+  },
+  "payload.forkee.fork": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.forks_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.keys_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.collaborators_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.teams_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.hooks_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.issue_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.assignees_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.branches_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.tags_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.blobs_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.git_tags_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.git_refs_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.trees_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.statuses_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.languages_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.stargazers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.contributors_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.subscribers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.subscription_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.commits_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.git_commits_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.comments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.issue_comment_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.contents_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.compare_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.merges_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.archive_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.downloads_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.issues_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.pulls_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.milestones_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.notifications_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.labels_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.releases_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.deployments_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.pushed_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.git_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.ssh_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.clone_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.svn_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.homepage": {
+    "types": [
+      "str"
+    ],
+    "null_count": 3,
+    "present_count": 5,
+    "null_rate_pct": 0.6
+  },
+  "payload.forkee.size": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.stargazers_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.watchers_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.language": {
+    "types": [],
+    "null_count": 5,
+    "present_count": 5,
+    "null_rate_pct": 1.0
+  },
+  "payload.forkee.has_issues": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.has_projects": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.has_downloads": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.has_wiki": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.has_pages": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.has_discussions": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.forks_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.mirror_url": {
+    "types": [],
+    "null_count": 5,
+    "present_count": 5,
+    "null_rate_pct": 1.0
+  },
+  "payload.forkee.archived": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.disabled": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.open_issues_count": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.license": {
+    "types": [],
+    "null_count": 5,
+    "present_count": 5,
+    "null_rate_pct": 1.0
+  },
+  "payload.forkee.allow_forking": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.is_template": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.web_commit_signoff_required": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.topics": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.visibility": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.forks": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.open_issues": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.watchers": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.default_branch": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.forkee.public": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 5,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.labels_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.number": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.title": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.description": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.creator.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.open_issues": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.closed_issues": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.state": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.due_on": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.pull_request.milestone.closed_at": {
+    "types": [],
+    "null_count": 2,
+    "present_count": 2,
+    "null_rate_pct": 0.4
+  },
+  "payload.comment.in_reply_to_id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.actions": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.discussions": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.merge_queues": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.packages": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.pages": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.repository_projects": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.security_events": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.vulnerability_alerts": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 2,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.labels_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.number": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.title": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.description": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.creator.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.open_issues": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.closed_issues": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.state": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.updated_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.issue.milestone.due_on": {
+    "types": [],
+    "null_count": 1,
+    "present_count": 1,
+    "null_rate_pct": 0.2
+  },
+  "payload.issue.milestone.closed_at": {
+    "types": [],
+    "null_count": 1,
+    "present_count": 1,
+    "null_rate_pct": 0.2
+  },
+  "payload.release": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.assets_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.upload_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author": {
+    "types": [
+      "dict"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.login": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.id": {
+    "types": [
+      "int"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.avatar_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.gravatar_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.html_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.followers_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.following_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.gists_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.starred_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.subscriptions_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.organizations_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.repos_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.received_events_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.type": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.author.site_admin": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.node_id": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.tag_name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.target_commitish": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.name": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.draft": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.prerelease": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.created_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.published_at": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.assets": {
+    "types": [
+      "list"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.tarball_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.zipball_url": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.body": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.short_description_html": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.release.is_short_description_html_truncated": {
+    "types": [
+      "bool"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  },
+  "payload.comment.performed_via_github_app.permissions.workflows": {
+    "types": [
+      "str"
+    ],
+    "null_count": 0,
+    "present_count": 1,
+    "null_rate_pct": 0.0
+  }
+}
