@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-06-02T17:30:57.779635",
+  "tests": [
+    {
+      "filename": "2024-01-15-10.json.gz",
+      "timestamp": "2026-06-02T17:30:57.350148",
+      "status": "PASSED",
+      "threshold_pct": 1.0,
+      "counts": {
+        "source_total": 247199,
+        "relevant": 171782,
+        "processed": 171782,
+        "dropped": 0,
+        "lost": 0,
+        "lost_pct": 0.0,
+        "duplicates": 0
+      },
+      "alerts": [],
+      "dropped_sample": []
+    },
+    {
+      "filename": "2024-01-15-10.json.gz",
+      "timestamp": "2026-06-02T17:30:57.609450",
+      "status": "FAILED",
+      "threshold_pct": 1.0,
+      "counts": {
+        "source_total": 247199,
+        "relevant": 171782,
+        "processed": 163192,
+        "dropped": 0,
+        "lost": 8590,
+        "lost_pct": 5.0005,
+        "duplicates": 0
+      },
+      "alerts": [
+        "Record loss 5.00% exceeds threshold of 1.0%"
+      ],
+      "dropped_sample": []
+    },
+    {
+      "filename": "2024-01-15-10.json.gz",
+      "timestamp": "2026-06-02T17:30:57.771607",
+      "status": "FAILED",
+      "threshold_pct": 1.0,
+      "counts": {
+        "source_total": 247199,
+        "relevant": 171782,
+        "processed": 171832,
+        "dropped": 0,
+        "lost": -50,
+        "lost_pct": -0.0291,
+        "duplicates": 50
+      },
+      "alerts": [
+        "50 duplicate event IDs detected"
+      ],
+      "dropped_sample": []
+    }
+  ]
+}
