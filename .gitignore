@@ -1,2 +1,15 @@
+# data files
 data/
+
+# output JSON reports (keep PNGs)
 output/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# environment
+.env
+venv/
