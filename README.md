@@ -174,17 +174,6 @@ miss.
 
 ---
 
-## What This Proves on My Resume
-
-| Resume Claim | How This Project Proves It |
-|---|---|
-| "Schema drift detection" | 3/3 drift types caught — field disappears, new field, null rate spike |
-| "Record count reconciliation" | Catches >1% loss and any duplicates across 170k+ records |
-| "Reducing downstream reporting errors by 35%" | 100% catch rate on 100 injected bad events across 741k |
-| "Automated data quality validation" | Zero manual steps — file lands, pipeline runs, alert fires |
-
----
-
 ## Part of a 6-Project Portfolio
 
 | Project | Stack | Status |
