@@ -1,5 +1,5 @@
 # Data Quality Engine — GitHub Event Pipeline
-
+![Tests](https://github.com/vipinkatakam/p1-data-quality/actions/workflows/tests.yml/badge.svg)
 > Automated data validation, schema drift detection, and record reconciliation 
 > across 741,000+ real GitHub events. Built as Project 1 of a 6-project 
 > Data Engineering portfolio.
