@@ -20,7 +20,17 @@ BASELINE_FILE  = os.path.join(OUTPUT_FOLDER, "baseline_schema.json")
 
 def run_full_pipeline(filepath):
     filename = os.path.basename(filepath)
-    ts       = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    if not os.path.exists(filepath):
+        print(f"[ERROR] File not found: {filepath}")
+        print(f"        Check the data/ folder and try again.")
+        return
+
+    if not filepath.endswith(".json.gz"):
+        print(f"[ERROR] Expected a .json.gz file, got: {filepath}")
+        return
+
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     print("\n" + "="*55)
     print(f"  FULL PIPELINE RUN  [{ts}]")
