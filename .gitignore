@@ -1,5 +1,6 @@
-# data files
-data/
+# data files — ignore everything in data/ except README
+data/*
+!data/README.md
 
 # output JSON reports (keep PNGs)
 output/*.json
